@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div className="auth">
-      <h1>Cadastro de uma nova conta</h1>
+      <h1>Cadastrar nova conta</h1>
       <form>
         <input required type="text" placeholder="Digite o nome da conta" />
         <input required type="email" placeholder="Digite o email" />
