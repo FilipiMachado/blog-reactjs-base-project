@@ -1,5 +1,5 @@
 $lightGreen: #b9e7e7;
-$mediumPurple: #4A19AB;
+$mediumPurple: #4a19ab;
 
 .app {
   display: flex;
@@ -61,7 +61,7 @@ $mediumPurple: #4A19AB;
       }
     }
 
-    //NAVBAR
+    // NAVBAR
     .navbar {
       .container {
         padding: 10px 0px;
@@ -100,13 +100,28 @@ $mediumPurple: #4A19AB;
 
             &:hover {
               width: 66px;
-            height: 66px;
+              height: 66px;
               color: teal;
               background-color: #fff;
               border: 1px solid teal;
             }
           }
         }
+      }
+    }
+
+    // FOOTER
+    footer {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: $lightGreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+
+      img {
+        width: 50px;
       }
     }
   }
