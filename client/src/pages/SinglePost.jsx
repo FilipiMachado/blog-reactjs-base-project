@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import Menu from "../components/Menu";
 
 import EditIcon from "../imgs/edit-icon.png";
 import DeleteIcon from "../imgs/delete-icon.png";
-import { Link } from "react-router-dom";
 
 const SinglePost = () => {
   return (
@@ -36,7 +38,7 @@ const SinglePost = () => {
           at illo sed.
         </p>
       </div>
-      <div className="menu">menu</div>
+      <Menu />
     </div>
   );
 };
